@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>dotnet-AlphieDiscordBot-8FC8168D-12A5-4836-AF3B-54F5B1B52754</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DSharpPlus" Version="4.1.0" />
+        <PackageReference Include="DSharpPlus.CommandsNext" Version="4.1.0" />
+        <PackageReference Include="DSharpPlus.Interactivity" Version="4.1.0" />
+        <PackageReference Include="DSharpPlus.Rest" Version="4.1.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.14" />
+        <PackageReference Include="MongoDB.Bson" Version="2.13.2" />
+        <PackageReference Include="MongoDB.Driver" Version="2.13.2" />
+        <PackageReference Include="MongoDB.Driver.Core" Version="2.13.2" />
+    </ItemGroup>
+</Project>
